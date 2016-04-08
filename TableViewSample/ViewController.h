@@ -10,6 +10,7 @@
 
 @interface ViewController : NSViewController
 
+@property (readonly) NSManagedObjectContext *managedObjectContext;
 
 @end
 

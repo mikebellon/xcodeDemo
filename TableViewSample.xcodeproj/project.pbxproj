@@ -13,6 +13,8 @@
 		0AE76EE11CB6F603008C7C1E /* TableViewSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AE76EDF1CB6F603008C7C1E /* TableViewSample.xcdatamodeld */; };
 		0AE76EE31CB6F603008C7C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE76EE21CB6F603008C7C1E /* Assets.xcassets */; };
 		0AE76EE61CB6F603008C7C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE76EE41CB6F603008C7C1E /* Main.storyboard */; };
+		0AE76EF71CB71363008C7C1E /* MyList+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE76EF21CB71363008C7C1E /* MyList+CoreDataProperties.m */; };
+		0AE76EF81CB71363008C7C1E /* MyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE76EF41CB71363008C7C1E /* MyList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0AE76EE21CB6F603008C7C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AE76EE51CB6F603008C7C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AE76EE71CB6F603008C7C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE76EF11CB71363008C7C1E /* MyList+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyList+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0AE76EF21CB71363008C7C1E /* MyList+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyList+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0AE76EF31CB71363008C7C1E /* MyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyList.h; sourceTree = "<group>"; };
+		0AE76EF41CB71363008C7C1E /* MyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,10 @@
 		0AE76ECA1CB6F603008C7C1E = {
 			isa = PBXGroup;
 			children = (
+				0AE76EF11CB71363008C7C1E /* MyList+CoreDataProperties.h */,
+				0AE76EF21CB71363008C7C1E /* MyList+CoreDataProperties.m */,
+				0AE76EF31CB71363008C7C1E /* MyList.h */,
+				0AE76EF41CB71363008C7C1E /* MyList.m */,
 				0AE76ED51CB6F603008C7C1E /* TableViewSample */,
 				0AE76ED41CB6F603008C7C1E /* Products */,
 			);
@@ -148,9 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE76EF71CB71363008C7C1E /* MyList+CoreDataProperties.m in Sources */,
 				0AE76EDE1CB6F603008C7C1E /* ViewController.m in Sources */,
 				0AE76EE11CB6F603008C7C1E /* TableViewSample.xcdatamodeld in Sources */,
 				0AE76EDB1CB6F603008C7C1E /* main.m in Sources */,
+				0AE76EF81CB71363008C7C1E /* MyList.m in Sources */,
 				0AE76ED81CB6F603008C7C1E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +305,7 @@
 				0AE76EEC1CB6F603008C7C1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

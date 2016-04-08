@@ -10,6 +10,11 @@
 
 @implementation ViewController
 
+- (NSManagedObjectContext*)managedObjectContext
+{
+    return [[[NSApplication sharedApplication] delegate] managedObjectContext];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
